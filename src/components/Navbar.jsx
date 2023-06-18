@@ -28,7 +28,7 @@ const Navbar = () => {
             </ul>
             <div className="sm:flex hidden justify-end items-center">
                 <div className="mr-4">
-                    <a href="#contact" className="text-white text-[16px] font-roboto font-normal">Contact Sales</a>
+                    <a href="#contact" className=" text-white text-[16px] font-roboto font-normal">Contact Sales</a>
                 </div>
                 <div className="rounded-full bg-white py-2 px-6">
                     <a href="#demo" className="text-black text-[16px] font-roboto font-medium">Book a Demo</a>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
                 <div
                     className={`${!toggle ? "hidden" : "flex"
-                        } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+                        } p-6 bg-purple-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
                 >
                     <ul className="list-none flex justify-end items-start flex-1 flex-col">
                         {navLinks.map((nav, index) => (

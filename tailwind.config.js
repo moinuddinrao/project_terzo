@@ -5,13 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
+        primary: "#0E0A0F",
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        sans: ["Roboto", "Segoe UI", "sans-serif"],
+        sans: ["Segoe UI", "Roboto", "sans-serif"],
       },
     },
     screens: {
