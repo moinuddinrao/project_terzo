@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
 
 @tailwind base;
 @tailwind components;
@@ -24,20 +23,20 @@
   border-radius: 40px;
 }
 
-.bg-gradient {
-  /* position: absolute;
-  width: 704px;
-  height: 806px;
-  left: -28.05px;
-  top: -0.27px; */
+.line {
+  width: 100%;
+  height: 1px;
+  background: #e9e9e9;
+  opacity: 0.2;
+}
 
+.bg-gradient {
   background: radial-gradient(
       50% 50% at 50% 50%,
       #9966ff 0%,
       rgba(14, 10, 15, 0) 70%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-  opacity: 0.15;
+    );
+    opacity: 0.10;
 }
 
 .bg-purple-gradient {
@@ -48,6 +47,22 @@
     #11101d 100%
   );
   z-index: 10;
+}
+
+.text-gradient {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background: linear-gradient(
+    135.36deg,
+    #d383fc 21.78%,
+    #cb6afb 39.25%,
+    rgba(203, 106, 251, 0.2) 86.85%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .bg-black-gradient-2 {

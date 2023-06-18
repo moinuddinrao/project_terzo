@@ -10,7 +10,7 @@ const Hero = () => {
             <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 relative`}>
                 <div className="absolute z-[0] w-[100%] h-[100%] -top-20 -left-20 bg-gradient " />
                 <div className="flex flex-row justify-between items-center w-full">
-                    <h1 className="flex-1 font-segoe-ui font-normal ss:text-[72px] text-[48px] text-white ss:leading-[75px] leading-[50px]">
+                    <h1 className={`flex-1 ${styles.heading1}`}>
                         Unlock financial insights hidden in your contracts
                     </h1>
                 </div>
