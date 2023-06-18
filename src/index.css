@@ -32,11 +32,11 @@
 
 .bg-gradient {
   background: radial-gradient(
-      50% 50% at 50% 50%,
-      #9966ff 0%,
-      rgba(14, 10, 15, 0) 70%
-    );
-    opacity: 0.10;
+    50% 50% at 50% 50%,
+    #9966ff 0%,
+    rgba(14, 10, 15, 0) 70%
+  );
+  opacity: 0.1;
 }
 
 .bg-purple-gradient {
@@ -65,22 +65,61 @@
   background-clip: text;
 }
 
-.bg-black-gradient-2 {
-  background: linear-gradient(
-    -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+.spanPrimary,
+.spanSecondary,
+.spangroup {
+  position: absolute;
+  top: 0;
+  height: 10px;
 }
 
+.spanPrimary {
+  width: 40px;
+  left: 0px;
+  background: #9966ff;
+  border-radius: 12px;
+}
+
+.spanSecondary {
+  width: 10px;
+  left: 48px;
+
+  background: #9966FF;
+  border-radius: 9999px;
+}
+
+.bg-black-gradient {
+  background: linear-gradient(1.5deg, #0E0A0F 1.28%, rgba(0, 0, 0, 0) 79.08%);
+}
+
+.businessPara {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #FAF9FA;
+}
+
+.businessPara span {
+  font-weight: 500;
+  color: #9966FF;
+  ;
+}
+
+.text-purple {
+  color: #9966FF;
+}
+
+/* 
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,
     rgba(255, 255, 255, 0) -341.94%,
     #14101d 95.11%
   );
-}
+} */
 
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
