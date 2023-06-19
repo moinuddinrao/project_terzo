@@ -1,6 +1,6 @@
 import styles from "./style";
 
-import { Navbar, Hero, Stats, Business, Integrations, Values, News, CTA} from "./components";
+import { Navbar, Hero, Stats, Business, Integrations, Values, News, CTA, Footer } from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -24,6 +24,12 @@ const App = () => (
         <Values />
         <News />
         <CTA />
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Footer />
       </div>
     </div>
   </div>

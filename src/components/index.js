@@ -7,6 +7,7 @@ import Integrations from "./Integrations";
 import Values from "./Values";
 import News from "./News";
 import CTA from "./CTA";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -17,5 +18,6 @@ export {
   Integrations,
   Values,
   News,
-  CTA
+  CTA,
+  Footer
 };
