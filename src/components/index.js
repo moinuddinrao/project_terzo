@@ -5,6 +5,7 @@ import Business from "./Business";
 import Button from "./Button";
 import Integrations from "./Integrations";
 import Values from "./Values";
+import News from "./News";
 
 export {
   Navbar,
@@ -13,5 +14,6 @@ export {
   Business,
   Button,
   Integrations,
-  Values
+  Values,
+  News
 };

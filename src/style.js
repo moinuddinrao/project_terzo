@@ -3,6 +3,7 @@ const styles = {
   
     heading1: "font-segoe-ui font-normal xs:text-[72px] text-[48px] text-white xs:leading-[75px] leading-[50px] w-full",
     heading2: "font-segoe-ui font-normal xs:text-[48px] text-[40px] text-white xs:leading-[60.8px] leading-[40.8px] w-full",
+    heading3: "font-roboto font-normal xs:text-[24px] text-[20px] text-white xs:leading-[36px] leading-[24px] w-full",
     paragraph: "font-roboto font-normal text-dimWhite text-[20px] leading-[30.8px]",
   
     flexCenter: "flex justify-center items-center",

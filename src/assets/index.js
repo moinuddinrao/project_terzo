@@ -19,5 +19,9 @@ import logoIcon from "./logoIcon.svg";
 import curveLine from "./curveline.svg";
 import int1 from "./int1.png";
 import int2 from "./int2.png";
+import TC from "./TC.svg";
+import PROCURE from "./PROCURE.svg";
+import CIO from "./CIO.svg";
+import TERZO from "./TERZO.svg";
 
-export { logo, menu, close, downArrow, hero, businessBack, businessFront, dash1, dash2, rightArrow, Microsoft, Oracle, ServiceNow, Coupa, Workday, SAP, plus, logoIcon, curveLine, int1, int2};
+export { logo, menu, close, downArrow, hero, businessBack, businessFront, dash1, dash2, rightArrow, Microsoft, Oracle, ServiceNow, Coupa, Workday, SAP, plus, logoIcon, curveLine, int1, int2, TC, PROCURE, CIO, TERZO};
