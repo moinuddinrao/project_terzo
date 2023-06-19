@@ -4,6 +4,7 @@ import Stats from "./Stats";
 import Business from "./Business";
 import Button from "./Button";
 import Integrations from "./Integrations";
+import Values from "./Values";
 
 export {
   Navbar,
@@ -12,4 +13,5 @@ export {
   Business,
   Button,
   Integrations,
+  Values
 };

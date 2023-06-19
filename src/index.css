@@ -139,6 +139,47 @@
   transform: rotate(150deg) translate(28rem) rotate(-150deg);
 }
 
+.values {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  letter-spacing: -0.96px;
+
+  background: linear-gradient(
+      93.75deg,
+      rgba(255, 255, 255, 0) 36.54%,
+      rgba(255, 255, 255, 0.5) 47.09%,
+      rgba(255, 255, 255, 0) 56.65%
+    ),
+    linear-gradient(89.43deg, #f4d0ff 27.33%, #ba7dc5 47.55%, #dcdfff 66.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.keywords {
+  margin: 0 1vw;
+  padding: 0 1vw;
+  background: linear-gradient(91.42deg, #f7e16e 41.23%, #f2cd0d 100%);
+  border-radius: 9999px;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.96px;
+  color: #0e0a0f;
+}
+
+@media (max-width: 768px) {
+  .values,
+  .keywords {
+    font-size: 6vw;
+  }
+}
+
 /* 
 .bg-gray-gradient {
   background: linear-gradient(
