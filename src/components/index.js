@@ -6,6 +6,7 @@ import Button from "./Button";
 import Integrations from "./Integrations";
 import Values from "./Values";
 import News from "./News";
+import CTA from "./CTA";
 
 export {
   Navbar,
@@ -15,5 +16,6 @@ export {
   Button,
   Integrations,
   Values,
-  News
+  News,
+  CTA
 };
