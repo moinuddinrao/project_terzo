@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import Stats from "./Stats";
 import Business from "./Business";
 import Button from "./Button";
+import Integrations from "./Integrations";
 
 export {
   Navbar,
@@ -10,4 +11,5 @@ export {
   Stats,
   Business,
   Button,
+  Integrations,
 };

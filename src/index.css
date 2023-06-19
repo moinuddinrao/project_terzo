@@ -84,32 +84,59 @@
   width: 10px;
   left: 48px;
 
-  background: #9966FF;
+  background: #9966ff;
   border-radius: 9999px;
 }
 
 .bg-black-gradient {
-  background: linear-gradient(1.5deg, #0E0A0F 1.28%, rgba(0, 0, 0, 0) 79.08%);
+  background: linear-gradient(1.5deg, #0e0a0f 1.28%, rgba(0, 0, 0, 0) 79.08%);
 }
 
 .businessPara {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 30px;
   line-height: 45px;
   text-align: center;
-  color: #FAF9FA;
+  color: #faf9fa;
 }
 
 .businessPara span {
   font-weight: 500;
-  color: #9966FF;
-  ;
+  color: #9966ff;
 }
 
 .text-purple {
-  color: #9966FF;
+  color: #9966ff;
+}
+
+.circle-container a {
+  position: absolute;
+  top: -10px;
+  z-index: 2;
+}
+
+.deg0 {
+  transform: translate(32em);
+} /* 12rem = half the width of the wrapper */
+.deg30 {
+  transform: rotate(30deg) translate(28rem) rotate(-30deg);
+}
+.deg60 {
+  transform: rotate(60deg) translate(28rem) rotate(-60deg);
+}
+.deg90 {
+  transform: rotate(90deg) translate(28rem) rotate(-90deg);
+}
+.deg180 {
+  transform: translate(-32rem);
+}
+.deg120 {
+  transform: rotate(120deg) translate(28rem) rotate(-120deg);
+}
+.deg150 {
+  transform: rotate(150deg) translate(28rem) rotate(-150deg);
 }
 
 /* 
