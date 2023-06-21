@@ -4,7 +4,7 @@ import { Microsoft, Oracle, ServiceNow, Coupa, Workday, SAP, plus, logoIcon, cur
 
 const Integrations = () => (
     <section id="Integrations">
-        <div className={`${styles.flexCenter} flex-col`}>
+        <div className={`${styles.flexCenter} flex-col relative`}>
             <div className="spangroup">
                 <div className="spanPrimary" />
                 <div className="spanSecondary" />
