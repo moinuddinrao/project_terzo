@@ -1,13 +1,14 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading1: "font-segoe-ui font-normal xs:text-[72px] text-[48px] text-white xs:leading-[75px] leading-[50px] w-full",
-    heading2: "font-segoe-ui font-normal xs:text-[48px] text-[40px] text-white xs:leading-[60.8px] leading-[40.8px] w-full",
-    heading3: "font-roboto font-normal xs:text-[24px] text-[20px] text-white xs:leading-[36px] leading-[24px] w-full",
-    paragraph: "font-roboto font-normal text-dimWhite text-[20px] leading-[30.8px]",
+    heading1: "font-segoe-ui font-normal md:text-[72px] md:leading-[80px] sm:text-[52px] sm:leading-[56px] text-[36px] leading-[42px] text-white w-full",
+    heading2: "font-segoe-ui font-normal md:text-[48px] md:leading-[50px] sm:text-[44px] sm:leading-[48px] text-[40px] leading-[42px] text-white w-full",
+    heading3: "font-roboto font-normal md:text-[28px] md:leading-[32px] sm:text-[24px] sm:leading-[28px] text-[20px] leading-[24px] text-white w-full",
+    paragraph: "font-roboto md:text-[20px] md:leading-[30px] sm:text-[18px] sm:leading-[24px] text-[16px] leading-[20px] text-dimWhite",
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
+    flexEnd: "flex justify-center items-end",
   
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",

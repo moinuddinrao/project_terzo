@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="w-full flex py-6 justify-between items-center navbar">
             <img src={logo} alt="logo" className="h-[25px]" />
 
-            <ul className="list-none sm:flex hidden justify-centre items-center">
+            <ul className="list-none md:flex hidden justify-centre items-center">
                 {navLinks.map((nav, index) => (
                     <li
                         key={nav.id}
@@ -19,14 +19,15 @@ const Navbar = () => {
                             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
                         onClick={() => setActive(nav.title)}
                     >
-                        <a className="flex items-center" href={`#${nav.id}`}>{nav.title}
+                        <a className="flex items-center" href={`#${nav.id}`}>
+                            {nav.title}
                             <img className="ml-1 h-[5px]" src={downArrow} alt="downArrow" />
                         </a>
 
                     </li>
                 ))}
             </ul>
-            <div className="sm:flex hidden justify-end items-center">
+            <div className="md:flex hidden justify-end items-center">
                 <div className="mr-4">
                     <a href="#contact" className=" text-white text-[16px] font-roboto font-normal">Contact Sales</a>
                 </div>
@@ -35,7 +36,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="sm:hidden flex flex-1 justify-end items-center">
+            <div className="md:hidden flex flex-1 justify-end items-center">
                 <img
                     src={toggle ? close : menu}
                     alt="menu"

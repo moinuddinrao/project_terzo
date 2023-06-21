@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logoIcon} from "../assets";
+import { logoIcon } from "../assets";
 
 const CTA = () => (
     <section className={`${styles.flexCenter} ${styles.marginY} flex-col text-center lg:px-80 sm:px-0`}>
@@ -8,8 +8,8 @@ const CTA = () => (
             <img src={logoIcon} alt="Logo Icon" className="w-[100%]" />
         </div >
         <h2 className={styles.heading2}>Speed to value. Get up and running in weeks, not months or years.</h2>
-        <div className="rounded-full btn py-3 px-6 mt-10">
-            <a href="#more" className="text-black text-[16px] font-roboto font-medium">Book a demo</a>
+        <div className="rounded-full btn sm:py-3 sm:px-6 py-2 px-4 sm:mt-10 mt-5">
+            <a href="#demo" className="text-black font-roboto font-medium md:text-[20px] sm:text-[18px] text-[16px]">Book a demo</a>
         </div>
     </section>
 );

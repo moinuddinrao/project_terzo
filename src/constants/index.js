@@ -1,4 +1,4 @@
-import { cer1, cer2, cer3, facebook, instagram, linkedin, twitter} from "../assets";
+import { cer1, cer2, cer3, facebook, instagram, linkedin, twitter, TC, PROCURE, CIO, TERZO } from "../assets";
 
 export const navLinks = [
   {
@@ -38,6 +38,33 @@ export const stats = [
     value: "30",
     description: "Get up and running quickly with no- code workflows plus out-of-the-box integrations."
   },
+];
+
+export const newsCards = [
+  {
+    id: "news-1",
+    title: "Terzo Announces $16M Series A Round",
+    description: "Today is a big day for Terzo. We have raised $16M in Series A funding led by Align Ventures with participation from TYH Ventures, Engage Ventures, Human Capital and other institutional investors.",
+    icon: TC,
+  },
+  {
+    id: "news-2",
+    title: "Terzo Named to 2022 ProcureTech 100 List",
+    description: "Discover the 2022 ProcureTech100, the most innovative, progressive and customer centric digital procurement solutions on the planet.",
+    icon: PROCURE,
+  },
+  {
+    id: "news-3",
+    title: "Terzo Named a 50 Best Companies to Watch in 2022",
+    description: "Our innovative, AI-powered contract intelligence software earned us a coveted spot in this year's round-up, and we're honored to have been selected.",
+    icon: CIO,
+  },
+  {
+    id: "news-4",
+    title: "Terzo Announces Partnership with Prevalent",
+    description: "Please join us in celebrating Terzo's newest strategic partnership with Prevalent, a leader in third-party risk management (TPRM).",
+    icon: TERZO,
+  }
 ];
 
 export const footerLinks = [

@@ -82,51 +82,47 @@
   background: linear-gradient(1.5deg, #0e0a0f 1.28%, rgba(0, 0, 0, 0) 79.08%);
 }
 
-.businessPara {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 45px;
-  text-align: center;
-  color: #faf9fa;
-}
-
-.businessPara span {
-  font-weight: 500;
-  color: #9966ff;
-}
-
 .text-purple {
   color: #9966ff;
 }
 
-.circle-container a {
+.curveline {
+  width: 70vw;
+}
+
+.box {
   position: absolute;
-  top: -10px;
   z-index: 2;
+  width: 8vw;
+  top: -2vw;
+}
+
+.plus {
+  position: absolute;
+  z-index: 2;
+  width: 5vw;
 }
 
 .deg0 {
-  transform: translate(32em);
-} /* 12rem = half the width of the wrapper */
+  transform: translate(32vw);
+}
 .deg30 {
-  transform: rotate(30deg) translate(28rem) rotate(-30deg);
+  transform: rotate(30deg) translate(30vw) rotate(-30deg);
 }
 .deg60 {
-  transform: rotate(60deg) translate(28rem) rotate(-60deg);
+  transform: rotate(60deg) translate(28vw) rotate(-60deg);
 }
 .deg90 {
-  transform: rotate(90deg) translate(28rem) rotate(-90deg);
+  transform: rotate(90deg) translate(15.5vw) rotate(-90deg);
 }
 .deg180 {
-  transform: translate(-32rem);
+  transform: translate(-32vw);
 }
 .deg120 {
-  transform: rotate(120deg) translate(28rem) rotate(-120deg);
+  transform: rotate(120deg) translate(28vw) rotate(-120deg);
 }
 .deg150 {
-  transform: rotate(150deg) translate(28rem) rotate(-150deg);
+  transform: rotate(150deg) translate(30vw) rotate(-150deg);
 }
 
 .values {
@@ -135,7 +131,7 @@
   font-weight: 400;
   font-size: 3vw;
   letter-spacing: -0.96px;
-
+  
   background: linear-gradient(
       93.75deg,
       rgba(255, 255, 255, 0) 36.54%,
@@ -149,18 +145,11 @@
 }
 
 .keywords {
-  margin: 0 1vw;
-  padding: 0 1vw;
   background: linear-gradient(91.42deg, #f7e16e 41.23%, #f2cd0d 100%);
-  border-radius: 9999px;
   font-weight: 500;
-  font-family: "Roboto";
-  font-style: normal;
-  font-size: 3vw;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.96px;
-  color: #0e0a0f;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 @media (max-width: 768px) {
@@ -171,14 +160,9 @@
 }
 
 .feedback-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: flex-start;
   padding: 2.5rem;
   border-radius: 6px;
   /* max-width: 370px; */
-  margin: 1.25rem auto;
 }
 
 .feedback-card span {
@@ -188,7 +172,7 @@
   margin: 1.25rem 0;
 }
 
-.card-1 {
+.news-1 {
   background: radial-gradient(
         94.08% 93.12% at 10.29% 6.88%,
         rgba(203, 106, 251, 0.15) 0%,
@@ -211,7 +195,7 @@
   border: 1px solid rgba(203, 106, 251, 0.25);
 }
 
-.card-1 p {
+.news-1 p {
   background: linear-gradient(
     90.72deg,
     #ffffff 0%,
@@ -224,11 +208,11 @@
   
 }
 
-.card-1 span {
+.news-1 span {
     background: #cb6afb; 
 }
 
-.card-2 {
+.news-2 {
   background: radial-gradient(
         96.01% 94.59% at 10.46% 5.41%,
         rgba(77, 102, 229, 0.2) 0%,
@@ -251,7 +235,7 @@
   border: 1px solid rgba(77, 102, 229, 0.3);
 }
 
-.card-2 p {
+.news-2 p {
   background: linear-gradient(
     268.44deg,
     #e8d0fd 16.77%,
@@ -266,11 +250,11 @@
   
 }
 
-.card-2 span {
+.news-2 span {
   background: #4D66E5; 
 }
 
-.card-3 {
+.news-3 {
   background: radial-gradient(
         96.63% 95.33% at 9.31% 4.67%,
         rgba(247, 224, 110, 0.075) 0%,
@@ -293,7 +277,7 @@
   border: 1px solid rgba(247, 225, 110, 0.12);
 }
 
-.card-3 p {
+.news-3 p {
   background: linear-gradient(
     268.22deg,
     #fdfdfd 18.99%,
@@ -307,11 +291,11 @@
   
 }
 
-.card-3 span {
+.news-3 span {
   background: #F7E16E;
 }
 
-.card-4 {
+.news-4 {
   background: radial-gradient(
         97.73% 95.94% at 10.46% 4.06%,
         rgba(150, 102, 255, 0.2) 0%,
@@ -334,7 +318,7 @@
   border: 1px solid rgba(153, 102, 255, 0.25);
 }
 
-.card-4 p {
+.news-4 p {
   background: linear-gradient(
     268.65deg,
     #ffffff 8.6%,
@@ -349,6 +333,6 @@
   
 }
 
-.card-4 span {
+.news-4 span {
   background: #9966FF;
 }
