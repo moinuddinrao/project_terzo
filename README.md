@@ -7,4 +7,4 @@ Key Features:
 - setup ReactJS using Vite
 - create a responsive, beautiful UI/UX using Tailwind CSS
 
-## Live Demo: https://terzo.netlify.app/
+## Live Demo: https://project-terzo.netlify.app/
